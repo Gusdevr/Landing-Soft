@@ -400,7 +400,8 @@ input[type='submit']{
         width: 100%;
         background-size: 1500px;
         height: 100%;
-        /* background-repeat: no-repeat; */
+        background-repeat: no-repeat;
+       
         
         
         
@@ -426,6 +427,65 @@ input[type='submit']{
     }
 }
 
+@media(max-width: 800px){
+    body{
+       background: url(./imagens/plano\ responsivo4.jpg);
+       background-size: auto;
+  
+       
+    }
+
+    nav ul{
+        flex-direction: column;
+        position: absolute;
+        right: -40px;
+        top: 350px;
+        text-align: center;
+        
+        margin-top: 100px;
+        gap: 20px;
+
+    }
+
+    .texto h5{
+        margin-top: 10px;
+        color: cyan;
+    }
+
+    .botao{
+       
+    }
+
+    main h3 {
+        margin-left: 50px;
+    }
+
+    main h5{
+        margin-left: 50px;
+       
+    }
+    header  h1{
+        
+        margin-left: 80px;
+    }
+
+
+    main{
+       margin-left: 50px;
+        
+    }
+
+    nav ul{
+        flex-direction: column;
+        position: absolute;
+        right: -40px;
+        top: 350px;
+        text-align: center;
+
+    }
+
+}
+
 
 @media(max-width: 375px){
     body{
@@ -439,11 +499,18 @@ input[type='submit']{
     nav ul{
         flex-direction: column;
         position: absolute;
-        right: -40px;
+        right: -70px;
         top: 350px;
         text-align: center;
         
         
+        
+    }
+
+    main{
+        
+        top: 10px;
+        position: absolute;
     }
 
     nav ul a{
@@ -452,8 +519,10 @@ input[type='submit']{
     }
 
     .titulo h1{
-        margin-left: 25%;
-        text-align: center;
+        
+        position: absolute;
+        left: 18%;
+        
     }
 
     .texto{
@@ -461,10 +530,14 @@ input[type='submit']{
         text-align: center;
         margin-right: 30px;
         text-shadow: 2px 3px 2px #060505;
+        margin-right: 80px;
         
     }
 
+    
+
     .texto h5{
+        
         color: cyan;
         font-weight: 700;
         font-size: 15px;
@@ -472,7 +545,7 @@ input[type='submit']{
     }
 
     .botao{
-        margin-left: 10px;
+        margin-left: 60px;
     }
 
     .titulo h1{
@@ -609,3 +682,4 @@ input[type='submit']{
 }
 
 }
+
